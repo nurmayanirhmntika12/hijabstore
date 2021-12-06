@@ -1,0 +1,42 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingBottom="4dp">
+
+    <ImageView
+        android:id="@+id/row_image_hijab"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/plisket" />
+
+    <LinearLayout
+        android:layout_toLeftOf="@id/row_image_hijab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/row_text_jenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Pahsmina Plisket"/>
+        <TextView
+            android:id="@+id/row_text_bahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:text="Ceruty Babydoll"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
